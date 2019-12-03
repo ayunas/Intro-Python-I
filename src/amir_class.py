@@ -21,6 +21,9 @@ person = {
     "weight" : 210
 }
 
+name,age,height,weight = person
+print(name,age,height,weight)
+
 # print(person)
 
 # print(f"{person['name']} is {person['age']} years old")
@@ -28,10 +31,10 @@ person = {
 # print(f"{name} is {age} years old.  He is {height} feet tall, weighing in at {weight} lbs.  ")
 
 message = (
-    f"This is {person['name']}. "
-    f"He is {person['age']} years old. "
-    f"He is {person['height']} feet tall. "
-    f"He is {person['weight']} lbs."
+    f"This is {name}. "
+    f"He is {age} years old. "
+    f"He is {height} feet tall. "
+    f"He is {weight} lbs."
 )
 
 print(message)
