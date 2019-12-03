@@ -44,4 +44,8 @@ print_tuple(t)  # Prints 1 2 5 7 99, one per line
 
 # Declare a tuple of 1 element then print it
 u = (1,)  # What needs to be added to make this work?  the comma defines the tuple.  the parenthesis are optional
+y = 2,
 print_tuple(u)
+print_tuple(u+y) #combines two tuples into a new tuple
+
+
