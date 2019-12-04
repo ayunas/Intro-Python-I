@@ -36,9 +36,40 @@ waypoints = [
 # Add a new waypoint to the list
 # YOUR CODE HERE
 
+fourth = dict([('lat',10),('long',29),('name','a fourth place')])
+waypoints.append(fourth)
+
+print(waypoints)
+
+
+
 # Modify the dictionary with name "a place" such that its longitude
 # value is -130 and change its name to "not a real place"
 # YOUR CODE HERE
+waypoints[0]["name"] = "not a real place"
+waypoints[0]["lon"] = -130
+
+print(waypoints[0])
 
 # Write a loop that prints out all the field values for all the waypoints
-# YOUR CODE HERE
+print("\n")
+for counter,wp in enumerate(waypoints):
+    print(f"Waypoint {counter+1}")
+    keyval = wp.items()
+    
+    for kv in keyval:
+        print(f"{kv[0]}: {kv[1]}")
+    print("\n")
+    
+    
+    
+    # for val in values:
+    #     print(val)
+    # keys = wp.keys()
+    # values = wp.values()
+
+
+
+
+
+
