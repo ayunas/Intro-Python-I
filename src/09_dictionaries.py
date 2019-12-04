@@ -51,9 +51,6 @@ waypoints[0]["lon"] = -130
 
 print(waypoints[0])
 
-
-
-
 # Write a loop that prints out all the field values for all the waypoints
 print("\n")
 for counter,wp in enumerate(waypoints):
