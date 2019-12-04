@@ -21,4 +21,23 @@ and does the following:
 
 import sys
 import calendar
-from datetime import datetime
+import datetime
+
+now = datetime.datetime.now()
+print(now.year)
+
+y = int(input("enter the year: ") or now.year)
+m = int(input("enter the month: ") or now.month)
+print(y,m)
+
+print(calendar.month(y,m))
+
+
+
+
+
+
+
+
+
+
